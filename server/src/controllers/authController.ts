@@ -4,9 +4,7 @@ import jwt from "jsonwebtoken";
 import User from "../models/User";
 
 
-// =========================
 // REGISTER USER
-// =========================
 export const registerUser = async (req: Request, res: Response) => {
   console.log("🔥 REGISTER API HIT");
   try {
@@ -56,9 +54,7 @@ export const registerUser = async (req: Request, res: Response) => {
 };
 
 
-// =========================
 // LOGIN USER
-// =========================
 export const loginUser = async (req: Request, res: Response) => {
   try {
     const { email, password } = req.body || {};
