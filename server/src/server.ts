@@ -4,7 +4,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import leadRoutes from "./routes/leadRoutes";
-import authRoutes from "./routes/authRoutes"; // ✅ FIX 1 (IMPORTANT)
+import authRoutes from "./routes/authRoutes"; 
 
 dotenv.config();
 
