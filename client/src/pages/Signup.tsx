@@ -8,7 +8,7 @@ const Signup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [loading, setLoading] = useState(false); // ✅ FIX 1 ADDED
+  const [loading, setLoading] = useState(false); 
 
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -19,7 +19,7 @@ const Signup = () => {
     }
 
     try {
-      setLoading(true); // ✅ FIX 2 ADDED
+      setLoading(true); 
 
       const res = await axios.post(
         "http://localhost:5000/api/auth/register",
@@ -31,18 +31,18 @@ const Signup = () => {
         }
       );
 
-      console.log("Signup Success:", res.data); // ✅ FIX 3 ADDED
+      console.log("Signup Success:", res.data); 
 
-      alert(res.data.message || "Signup Successful"); // ✅ FIX 4 IMPROVED
+      alert(res.data.message || "Signup Successful"); 
 
       navigate("/login");
 
     } catch (err: any) {
       console.log("Signup Error:", err.response?.data || err.message);
 
-      alert(err.response?.data?.message || "Signup Failed"); // ✅ FIX 5 IMPROVED
+      alert(err.response?.data?.message || "Signup Failed"); 
     } finally {
-      setLoading(false); // ✅ FIX 6 ADDED
+      setLoading(false); 
     }
   };
 
@@ -82,10 +82,10 @@ const Signup = () => {
 
           <button
             type="submit"
-            disabled={loading}   // ✅ FIX 7 ADDED
+            disabled={loading}   
             className="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition"
           >
-            {loading ? "Creating Account..." : "Signup"}  {/* ✅ FIX 8 */}
+            {loading ? "Creating Account..." : "Signup"}  
           </button>
 
         </form>
