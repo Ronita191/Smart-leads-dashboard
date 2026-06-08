@@ -1,80 +1,131 @@
-# Smart Leads Dashboard
+# 📊 Smart Leads Dashboard
 
-A modern full-stack web application designed to manage and visualize lead data efficiently. The dashboard provides an interactive user interface for tracking leads, managing customer information, and improving workflow productivity.
+A modern full-stack Lead Management Dashboard built using React, TypeScript, Node.js, and Express. The project helps users manage and track leads through a clean and responsive dashboard interface.
 
-## Features
+---
 
-* Responsive and modern UI
-* Lead management system
-* Dashboard analytics and visualization
-* Search and filtering functionality
-* Authentication and secure access
-* Real-time data updates
-* REST API integration
+# 🚀 Features
 
-## Tech Stack
+* 🔐 User Authentication System
+* 📋 Add, Update, Delete, and Manage Leads
+* 🔎 Search and Filter Leads
+* 📊 Interactive Dashboard UI
+* 🌙 Responsive Design with Dark Mode
+* ⚡ Fast Frontend using Vite
+* 📱 Mobile Responsive Layout
+* 🔗 Frontend and Backend API Integration
 
-### Frontend
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
 
 * React.js
 * TypeScript
 * Vite
 * HTML5
 * CSS3
+* Tailwind CSS
 
-### Backend
+## Backend
 
 * Node.js
 * Express.js
 * TypeScript
 
-## Installation
+## Tools & Platforms
 
-Clone the repository:
+* Git & GitHub
+* VS Code
+* GitHub Desktop
 
-```bash
+---
+
+# 💻 Project Setup
+
+## Clone Repository
+
+```bash id="x7m2pq"
 git clone https://github.com/Ronita191/Smart-leads-dashboard.git
 ```
 
-Navigate to the project folder:
+---
 
-```bash
-cd Smart-leads-dashboard
-```
+## Install Dependencies
 
-Install dependencies:
+### Frontend
 
-```bash
+```bash id="k4n8rw"
+cd frontend
 npm install
 ```
 
-Run the development server:
+### Backend
 
-```bash
+```bash id="d9p3vl"
+cd backend
+npm install
+```
+
+---
+
+# ▶️ Run the Project
+
+## Start Frontend
+
+```bash id="t5x1qm"
+cd frontend
 npm run dev
 ```
 
-## Project Structure
+Frontend runs on:
 
-```bash
-Smart-leads-dashboard/
-│
-├── client/
-├── server/
-├── src/
-├── public/
-├── package.json
-└── README.md
+```text id="h2r8wc"
+http://localhost:5173
 ```
 
-## Future Improvements
+---
 
-* Add user role management
-* Integrate database support
-* Add advanced analytics
-* Deploy application online
+## Start Backend
 
-## Author
+```bash id="m7v4pd"
+cd backend
+npm run dev
+```
+
+Backend runs on:
+
+```text id="f8k2yn"
+http://localhost:5000
+```
+
+---
+
+# 📂 Folder Structure
+
+```bash id="p3n7qt"
+Smart-leads-dashboard/
+│
+├── frontend/
+├── backend/
+├── README.md
+└── package.json
+```
+
+---
+
+# 📈 Future Improvements
+
+* Database Integration
+* Email Notifications
+* Analytics Dashboard
+* Deployment on Cloud
+* Role-Based Access Control
+
+---
+
+# 👨‍💻 Author
 
 Ronita Ekka
 
