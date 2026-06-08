@@ -7,7 +7,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
-  const navigate = useNavigate(); // ✅ ADD THIS
+  const navigate = useNavigate(); // 
 
 
   const handleLogin = async (e: React.FormEvent) => {
