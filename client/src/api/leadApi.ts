@@ -51,7 +51,6 @@ export const deleteLead = async (id: string) => {
 };
 
 // UPDATE LEAD
-// UPDATE LEAD
 export const updateLead = async (
   id: string,
   data: {
